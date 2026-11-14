@@ -1,10 +1,10 @@
-// Migrated from blog.html — TubePilot static site (main content only).
+// Migrated from blog.html — Tube Pilot static site (main content only).
 export const pageHtml = `
   <section class="tp-page-hero">
     <div class="container">
       <span class="eyebrow">Creator knowledge</span>
       <h1>Ideas and guidance for YouTube creators</h1>
-      <p class="meta">TubePilot · Create · Optimize · Schedule · Grow</p>
+      <p class="meta">Tube Pilot · Create · Optimize · Schedule · Grow</p>
     </div>
   </section>  <section class="section">
     <div class="container tp-content">  <div class="tp-card" id="creator-workflow">
@@ -17,7 +17,7 @@ export const pageHtml = `
     </p>
     <p>
       Explore
-      <a href="/features">TubePilot's creator features</a>
+      <a href="/features">Tube Pilot's creator features</a>
       to learn how its tools support different stages of the YouTube
       content workflow.
     </p>
@@ -33,7 +33,7 @@ export const pageHtml = `
     </p>
     <p>
       Learn more about
-      <a href="/features">TubePilot's optimization features</a>
+      <a href="/features">Tube Pilot's optimization features</a>
       and how they fit into a creator's preparation process.
     </p>
   </div>
@@ -47,7 +47,7 @@ export const pageHtml = `
     </p>
     <p>
       Visit the
-      <a href="/docs">TubePilot documentation</a>
+      <a href="/docs">Tube Pilot documentation</a>
       for more information about the platform and its workflows.
     </p>
   </div>
@@ -58,14 +58,14 @@ export const pageHtml = `
   </p>
 
   <div class="tp-card" style="margin-top:24px">
-    <span class="eyebrow">Explore TubePilot</span>
+    <span class="eyebrow">Explore Tube Pilot</span>
     <h2>Build a more organized YouTube creator workflow</h2>
     <p>
       Discover tools and guidance for planning, optimizing, scheduling
       and managing your YouTube content workflow.
     </p>
     <p>
-      <a href="">Explore TubePilot</a>
+      <a href="">Explore Tube Pilot</a>
       ·
       <a href="/about">About us</a>
       ·

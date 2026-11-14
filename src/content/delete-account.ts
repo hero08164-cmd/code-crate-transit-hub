@@ -1,4 +1,4 @@
-// Migrated from delete-account.html — TubePilot static site (main content only).
+// Migrated from delete-account.html — Tube Pilot static site (main content only).
 export const pageHtml = `
   <!-- Page Header -->  <section class="hero" style="padding: 60px 0 40px 0;">
     <div class="container" style="max-width: 820px; text-align: center;">  <span class="eyebrow">Data Control &amp; Privacy</span>
@@ -8,7 +8,7 @@ export const pageHtml = `
   </h1>
 
   <p class="lead" style="margin: 16px auto; max-width: 650px;">
-    At TubePilot, you have complete control over your personal data and connected accounts. You can delete your account at any time either directly from the app or by submitting a web request below.
+    At Tube Pilot, you have complete control over your personal data and connected accounts. You can delete your account at any time either directly from the app or by submitting a web request below.
   </p>
 
 </div>
@@ -20,15 +20,15 @@ export const pageHtml = `
     <span class="eyebrow">Option 1</span>
 
     <h2 style="font-size: 22px; margin-top: 8px;">
-      Delete Directly Inside the TubePilot App
+      Delete Directly Inside the Tube Pilot App
     </h2>
 
     <p style="color: var(--text-dim); font-size: 15px;">
-      If you currently have the TubePilot application installed on your Android device, you can delete your account and clear all stored data instantly:
+      If you currently have the Tube Pilot application installed on your Android device, you can delete your account and clear all stored data instantly:
     </p>
 
     <ol style="color: var(--text-dim); font-size: 15px; padding-left: 20px; line-height: 1.8; margin-top: 12px;">
-      <li>Open the <strong>TubePilot</strong> app on your smartphone.</li>
+      <li>Open the <strong>Tube Pilot</strong> app on your smartphone.</li>
       <li>Tap on the <strong>Profile</strong> tab on the bottom navigation bar.</li>
       <li>Select <strong>Settings</strong> from the menu.</li>
       <li>Scroll down and tap on <strong style="color: #ff4d4d;">Delete Account</strong>.</li>
@@ -66,11 +66,11 @@ export const pageHtml = `
 
       <ul style="color: var(--text-dim); font-size: 14px; padding-left: 20px; line-height: 1.6;">
         <li><strong>Subject:</strong> Account Deletion Request — [Your Registered Email]</li>
-        <li><strong>Body:</strong> Please delete my TubePilot account and all associated data linked to my Google Account ([Your Google Email]).</li>
+        <li><strong>Body:</strong> Please delete my Tube Pilot account and all associated data linked to my Google Account ([Your Google Email]).</li>
       </ul>
 
       <div style="margin-top: 20px;">
-        <a href="mailto:anikkesharwani37@gmail.com?subject=Account%20Deletion%20Request%20-%20TubePilot&amp;body=Hello%20TubePilot%20Support%2C%0A%0AI%20would%20like%20to%20request%20the%20permanent%20deletion%20of%20my%20TubePilot%20account%20and%20all%20associated%20data.%0A%0ARegistered%20Email%20ID%3A%20%0A%0AThank%20you." class="btn btn-primary">
+        <a href="mailto:anikkesharwani37@gmail.com?subject=Account%20Deletion%20Request%20-%20Tube Pilot&amp;body=Hello%20Tube Pilot%20Support%2C%0A%0AI%20would%20like%20to%20request%20the%20permanent%20deletion%20of%20my%20Tube Pilot%20account%20and%20all%20associated%20data.%0A%0ARegistered%20Email%20ID%3A%20%0A%0AThank%20you." class="btn btn-primary">
           Send Deletion Email
         </a>
       </div>
@@ -111,7 +111,7 @@ export const pageHtml = `
     </h3>
 
     <p style="color: var(--text-dim); font-size: 15px; margin-bottom: 0;">
-      Videos that have already been uploaded to your YouTube channel will remain on your channel. TubePilot does not delete videos directly from your YouTube account upon account deletion. You can manage or delete your uploaded videos directly inside YouTube Studio.
+      Videos that have already been uploaded to your YouTube channel will remain on your channel. Tube Pilot does not delete videos directly from your YouTube account upon account deletion. You can manage or delete your uploaded videos directly inside YouTube Studio.
     </p>
 
   </div>

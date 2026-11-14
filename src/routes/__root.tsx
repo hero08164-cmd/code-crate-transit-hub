@@ -85,21 +85,21 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         name: "google-site-verification",
         content: "Gt4ppbrOmuJmEo3jyJOmvJi4cs5GIQP2_e_Qo5knyLc",
       },
-      { title: "TubePilot - AI YouTube Creator OS" },
+      { title: "Tube Pilot - AI YouTube Creator OS" },
       {
         name: "description",
         content:
-          "TubePilot is the AI YouTube Creator OS for planning videos, optimizing titles and descriptions, scheduling uploads, and growing your channel.",
+          "Tube Pilot is the AI YouTube Creator OS for planning videos, optimizing titles and descriptions, scheduling uploads, and growing your channel.",
       },
       { name: "theme-color", content: "#64135f" },
       { property: "og:type", content: "website" },
-      { property: "og:site_name", content: "TubePilot" },
-      { property: "og:title", content: "TubePilot - AI YouTube Creator OS" },
-      { property: "og:description", content: "CREATE, OPTIMIZE, SCHEDULE and GROW with TubePilot AI tools and our Model Context Protocol (MCP) layer." },
+      { property: "og:site_name", content: "Tube Pilot" },
+      { property: "og:title", content: "Tube Pilot - AI YouTube Creator OS" },
+      { property: "og:description", content: "CREATE, OPTIMIZE, SCHEDULE and GROW with Tube Pilot AI tools and our Model Context Protocol (MCP) layer." },
       { property: "og:image", content: "https://www.tubepilot.shop/images/logo.png" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "TubePilot - AI YouTube Creator OS" },
-      { name: "twitter:description", content: "CREATE, OPTIMIZE, SCHEDULE and GROW with TubePilot AI tools and our MCP layer." },
+      { name: "twitter:title", content: "Tube Pilot - AI YouTube Creator OS" },
+      { name: "twitter:description", content: "CREATE, OPTIMIZE, SCHEDULE and GROW with Tube Pilot AI tools and our MCP layer." },
       { name: "twitter:image", content: "https://www.tubepilot.shop/images/logo.png" },
     ],
     scripts: [
@@ -108,7 +108,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "SoftwareApplication",
-          name: "TubePilot",
+          name: "Tube Pilot",
           applicationCategory: "MultimediaApplication",
           operatingSystem: "Android",
           description: "An AI-powered YouTube Creator OS for video ideas, titles, descriptions, metadata, SEO, upload scheduling and creator analytics.",
@@ -123,7 +123,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Organization",
-          name: "TubePilot",
+          name: "Tube Pilot",
           legalName: "Bharat Cloud Technologies",
           url: "https://www.tubepilot.shop/",
           logo: "https://www.tubepilot.shop/images/logo.png",
@@ -137,7 +137,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "@context": "https://schema.org",
           "@type": "Person",
           name: "Anik Kumar",
-          jobTitle: "Founder of TubePilot",
+          jobTitle: "Founder of Tube Pilot",
           url: "https://www.tubepilot.shop/founder",
           image: "https://www.tubepilot.shop/images/founder.png",
           worksFor: { "@type": "Organization", name: "Bharat Cloud Technologies" },
@@ -149,7 +149,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "WebSite",
-          name: "TubePilot",
+          name: "Tube Pilot",
           url: "https://www.tubepilot.shop/",
           publisher: { "@type": "Organization", name: "Bharat Cloud Technologies" },
           inLanguage: "en-IN",
@@ -164,13 +164,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           mainEntity: [
             {
               "@type": "Question",
-              name: "What is TubePilot?",
-              acceptedAnswer: { "@type": "Answer", text: "TubePilot is an AI-powered YouTube Creator OS and Android app designed to help creators plan video ideas, prepare titles and descriptions, work with hashtags and metadata, optimize video SEO, upload and schedule content, and review available channel performance insights." },
+              name: "What is Tube Pilot?",
+              acceptedAnswer: { "@type": "Answer", text: "Tube Pilot is an AI-powered YouTube Creator OS and Android app designed to help creators plan video ideas, prepare titles and descriptions, work with hashtags and metadata, optimize video SEO, upload and schedule content, and review available channel performance insights." },
             },
             {
               "@type": "Question",
-              name: "Who is the founder of TubePilot?",
-              acceptedAnswer: { "@type": "Answer", text: "TubePilot was founded by Anik Kumar and is operated by Bharat Cloud Technologies." },
+              name: "Who is the founder of Tube Pilot?",
+              acceptedAnswer: { "@type": "Answer", text: "Tube Pilot was founded by Anik Kumar and is operated by Bharat Cloud Technologies." },
             },
             {
               "@type": "Question",

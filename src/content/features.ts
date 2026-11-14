@@ -1,19 +1,19 @@
-// Migrated from features.html — TubePilot static site (main content only).
+// Migrated from features.html — Tube Pilot static site (main content only).
 export const pageHtml = `
   <section class="tp-page-hero">
     <div class="container">  <span class="eyebrow">Product features</span>
 
-  <h1>TubePilot Features — AI Tools for YouTube Creators</h1>
+  <h1>Tube Pilot Features — AI Tools for YouTube Creators</h1>
 
   <p class="meta">
-    TubePilot · Create · Optimize · Schedule · Grow
+    Tube Pilot · Create · Optimize · Schedule · Grow
   </p>
 
 </div>
 
   </section>  <section class="section">
     <div class="container tp-content">  <p>
-    <strong>TubePilot</strong> is an AI-powered YouTube Creator OS
+    <strong>Tube Pilot</strong> is an AI-powered YouTube Creator OS
     designed to bring content planning, video optimization,
     publishing workflows and channel insights together.
   </p>
@@ -108,7 +108,7 @@ export const pageHtml = `
   <ul>
     <li>
       <strong>Video Upload:</strong>
-      Upload videos through supported TubePilot workflows.
+      Upload videos through supported Tube Pilot workflows.
     </li>
 
     <li>
@@ -152,10 +152,10 @@ export const pageHtml = `
     </li>
   </ul>
 
-  <h2>AI &amp; Agent Integration — TubePilot MCP</h2>
+  <h2>AI &amp; Agent Integration — Tube Pilot MCP</h2>
 
   <p>
-    TubePilot has its own Model Context Protocol (MCP) integration
+    Tube Pilot has its own Model Context Protocol (MCP) integration
     layer intended to provide a structured connection path for
     compatible AI assistants and agent workflows.
   </p>
@@ -168,13 +168,13 @@ export const pageHtml = `
 
   <p>
     Learn more on the
-    <a href="/mcp">TubePilot MCP page</a>.
+    <a href="/mcp">Tube Pilot MCP page</a>.
   </p>
 
   <h2>One Connected YouTube Creator Workflow</h2>
 
   <p>
-    TubePilot brings together tools that support different parts
+    Tube Pilot brings together tools that support different parts
     of a creator's process, from planning video ideas to preparing
     metadata, managing uploads and reviewing performance.
   </p>
@@ -184,11 +184,11 @@ export const pageHtml = `
     <strong>CREATE · OPTIMIZE · SCHEDULE · GROW</strong>.
   </p>
 
-  <h2>Explore More About TubePilot</h2>
+  <h2>Explore More About Tube Pilot</h2>
 
   <ul>
     <li>
-      <a href="/about">About TubePilot</a> —
+      <a href="/about">About Tube Pilot</a> —
       Learn about the platform and its purpose.
     </li>
 
@@ -198,18 +198,18 @@ export const pageHtml = `
     </li>
 
     <li>
-      <a href="/mcp">TubePilot MCP</a> —
+      <a href="/mcp">Tube Pilot MCP</a> —
       Explore its AI-agent integration direction.
     </li>
 
     <li>
       <a href="/faq">Frequently Asked Questions</a> —
-      Find answers about TubePilot.
+      Find answers about Tube Pilot.
     </li>
 
     <li>
       <a href="/contact">Contact Support</a> —
-      Get in touch with the TubePilot team.
+      Get in touch with the Tube Pilot team.
     </li>
   </ul>
 
@@ -217,7 +217,7 @@ export const pageHtml = `
     Feature availability can depend on app version, account
     eligibility, permissions and production rollout. This page
     describes the product capabilities and workflows; actual
-    functionality is determined by the live TubePilot app.
+    functionality is determined by the live Tube Pilot app.
   </p>
 
 </div>

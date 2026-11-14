@@ -1,10 +1,10 @@
-// Migrated from privacy.html — TubePilot static site (main content only).
+// Migrated from privacy.html — Tube Pilot static site (main content only).
 export const pageHtml = `
 <section class="legal-hero">
   <div class="container">
     <span class="eyebrow">Legal</span>
     <h1>Privacy Policy</h1>
-    <p class="meta">Effective date: 31 July 2026 · Applies to the TubePilot mobile app and website</p>
+    <p class="meta">Effective date: 31 July 2026 · Applies to the Tube Pilot mobile app and website</p>
   </div>
 </section><div class="container">
   <div class="legal-layout"><nav class="toc" aria-label="Table of contents">
@@ -27,10 +27,10 @@ export const pageHtml = `
 <article class="legal-body">
 
   <h2 id="overview">1. Overview</h2>
-  <p>TubePilot ("TubePilot", "we", "us") is developed and operated by <strong>Bharat Cloud Technologies</strong>. TubePilot provides YouTube-focused creator tools including AI-assisted content preparation, video upload, scheduling and analytics. Google Drive auto-upload and cross-platform social sharing are not part of the current public product scope. This policy explains what data we collect, why we collect it, and how you can control it.</p>
+  <p>Tube Pilot ("Tube Pilot", "we", "us") is developed and operated by <strong>Bharat Cloud Technologies</strong>. Tube Pilot provides YouTube-focused creator tools including AI-assisted content preparation, video upload, scheduling and analytics. Google Drive auto-upload and cross-platform social sharing are not part of the current public product scope. This policy explains what data we collect, why we collect it, and how you can control it.</p>
 
   <h2 id="data-we-collect">2. Data we collect</h2>
-  <p>We collect the following categories of data when you use TubePilot:</p>
+  <p>We collect the following categories of data when you use Tube Pilot:</p>
   <ul>
     <li><strong>Account information</strong> — name, username, email address or phone number, and a password (stored encrypted) or Google sign-in identifier.</li>
     <li><strong>Video content and metadata</strong> — the videos, thumbnails, titles, descriptions, and tags you choose to upload.</li>
@@ -40,19 +40,19 @@ export const pageHtml = `
   </ul>
 
   <h2 id="google-data">3. Google and YouTube data</h2>
-  <p>TubePilot uses YouTube API Services for supported YouTube connection and publishing workflows. When you connect your YouTube channel, the app requests the Google authorization scopes shown on the consent screen:</p>
+  <p>Tube Pilot uses YouTube API Services for supported YouTube connection and publishing workflows. When you connect your YouTube channel, the app requests the Google authorization scopes shown on the consent screen:</p>
   <ul>
     <li><strong>YouTube upload &amp; management access</strong> — used solely to upload videos to your own connected channel, on your instruction or on the schedule you set, and to display your channel name, thumbnail, and subscriber count in the app.</li>
   </ul>
 
   <div class="callout">
-    <strong>YouTube API Services notice.</strong> TubePilot uses YouTube API Services. By using TubePilot, you agree to be bound by the
+    <strong>YouTube API Services notice.</strong> Tube Pilot uses YouTube API Services. By using Tube Pilot, you agree to be bound by the
     <a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener">YouTube Terms of Service</a>.
     For information on how Google collects and processes data, see the
     <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.
-    You can revoke TubePilot's access to your Google account at any time from the
+    You can revoke Tube Pilot's access to your Google account at any time from the
     <a href="https://security.google.com/settings/security/permissions" target="_blank" rel="noopener">Google Security Settings</a>
-    page, or from within TubePilot's app settings.
+    page, or from within Tube Pilot's app settings.
   </div>
 
   <h2 id="how-we-use">4. How we use your data</h2>
@@ -66,7 +66,7 @@ export const pageHtml = `
   <p>We do not sell your personal data, and we do not use data obtained through Google APIs for advertising purposes.</p>
 
   <h2 id="third-parties">5. Third-party services we use</h2>
-  <p>TubePilot relies on the following service providers to operate. Each processes only the data necessary for its function:</p>
+  <p>Tube Pilot relies on the following service providers to operate. Each processes only the data necessary for its function:</p>
   <ul>
     <li><strong>Google / YouTube API Services</strong> — to connect and operate supported YouTube features.</li>
     <li><strong>Cloud storage providers</strong> — to temporarily hold your video file during the upload process.</li>
@@ -86,13 +86,13 @@ export const pageHtml = `
   </ul>
 
   <h2 id="children">8. Children's privacy</h2>
-  <p>TubePilot is not directed to children under 13 (or the minimum age required in your country), and we do not knowingly collect personal data from children. If you believe a child has provided us with personal data, please contact us and we will delete it.</p>
+  <p>Tube Pilot is not directed to children under 13 (or the minimum age required in your country), and we do not knowingly collect personal data from children. If you believe a child has provided us with personal data, please contact us and we will delete it.</p>
 
   <h2 id="security">9. Security</h2>
   <p>We use industry-standard measures — including encrypted connections (TLS/SSL), encrypted password storage, and access controls — to protect your data. No method of transmission or storage is 100% secure, and we cannot guarantee absolute security.</p>
 
   <h2 id="changes">10. Changes to this policy</h2>
-  <p>We may update this policy from time to time. Material changes will be reflected by an updated "Effective date" at the top of this page. Continued use of TubePilot after a change constitutes acceptance of the updated policy.</p>
+  <p>We may update this policy from time to time. Material changes will be reflected by an updated "Effective date" at the top of this page. Continued use of Tube Pilot after a change constitutes acceptance of the updated policy.</p>
 
   <h2 id="contact-us">11. Contact us</h2>
   <p>Questions about this policy or your data can be sent to <a href="mailto:anikkesharwani37@gmail.com">anikkesharwani37@gmail.com</a>, or through the <a href="/contact">Contact page</a>.</p>

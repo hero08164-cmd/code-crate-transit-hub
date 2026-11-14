@@ -1,17 +1,17 @@
-# TubePilot
+# Tube Pilot
 
-> TubePilot is an AI-powered YouTube Creator OS and Android app by Bharat Cloud Technologies. It helps creators plan, optimize, schedule, publish, and review their YouTube content workflow.
+> Tube Pilot is an AI-powered YouTube Creator OS and Android app by Bharat Cloud Technologies. It helps creators plan, optimize, schedule, publish, and review their YouTube content workflow.
 
 ## Product
 
-- TubePilot focuses on YouTube creator workflows.
-- Core capabilities include AI video ideas, title and description assistance, hashtags and metadata, YouTube SEO preparation, thumbnail and visual workflows, video upload and scheduling, channel insights, and TubePilot MCP for compatible AI clients.
-- TubePilot is an Android app. There is no desktop client or Microsoft Store app.
+- Tube Pilot focuses on YouTube creator workflows.
+- Core capabilities include AI video ideas, title and description assistance, hashtags and metadata, YouTube SEO preparation, thumbnail and visual workflows, video upload and scheduling, channel insights, and Tube Pilot MCP for compatible AI clients.
+- Tube Pilot is an Android app. There is no desktop client or Microsoft Store app.
 - Current prices, credit balances, and feature entitlements are shown in the app and may change.
 
 ## Official links
 
-- [TubePilot website](https://www.tubepilot.shop/): Official product website.
+- [Tube Pilot website](https://www.tubepilot.shop/): Official product website.
 - [Google Play app](https://play.google.com/store/apps/details?id=com.tubepilot.app): Official Android app listing.
 - [Features](https://www.tubepilot.shop/features): Product capabilities.
 - [AI Studio](https://www.tubepilot.shop/ai-studio): AI YouTube title and description generator.
@@ -19,12 +19,12 @@
 - [MCP](https://www.tubepilot.shop/mcp): Model Context Protocol information.
 - [FAQ](https://www.tubepilot.shop/faq): Frequently asked questions.
 - [Blog](https://www.tubepilot.shop/blog): Product and creator resources.
-- [About](https://www.tubepilot.shop/about): About TubePilot.
+- [About](https://www.tubepilot.shop/about): About Tube Pilot.
 - [Founder](https://www.tubepilot.shop/founder): Founder information.
 
 ## Organization
 
-- Product: TubePilot.
+- Product: Tube Pilot.
 - Operator: Bharat Cloud Technologies.
 - Founder: Anik Kumar.
 - Official support: support@tubepilot.shop.
@@ -40,6 +40,6 @@
 
 ## Important accuracy notes
 
-- Do not attribute tubepilot.ai to TubePilot; it is a separate, unrelated website.
+- Do not attribute tubepilot.ai to Tube Pilot; it is a separate, unrelated website.
 - Do not claim download counts, growth results, or performance guarantees unless independently verified.
 - Treat the app's live Diamond Store as the source of truth for current pricing and entitlements.

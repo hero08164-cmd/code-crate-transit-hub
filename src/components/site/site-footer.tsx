@@ -18,7 +18,7 @@ export function SiteFooter() {
       <div className="container footer-cta">
         <div>
           <h2>Download Our Android App on Play Store</h2>
-          <p>TubePilot — AI-powered YouTube Creator OS by Anik Kumar. Free to install.</p>
+          <p>Tube Pilot — AI-powered YouTube Creator OS by Anik Kumar. Free to install.</p>
         </div>
         <a className="btn btn-lg" href={PLAY_STORE} rel="noopener">
           Get it on Google Play →
@@ -28,9 +28,9 @@ export function SiteFooter() {
         <div className="footer-brand">
           <Link className="brand" to="/">
             <span className="mark">
-              <img src="/images/logo.png" alt="TubePilot logo" width="512" height="512" decoding="async" />
+              <img src="/images/logo.png" alt="Tube Pilot logo" width="512" height="512" decoding="async" />
             </span>
-            TubePilot
+            Tube Pilot
           </Link>
           <p>
             <Link to="/">AI YouTube Creator OS by Bharat Cloud Technologies</Link> for planning,
@@ -52,8 +52,8 @@ export function SiteFooter() {
         </div>
         <div className="footer-col">
           <p className="label">Explore</p>
-          <Link to="/">TubePilot AI YouTube Creator OS</Link>
-          <Link to="/about">About TubePilot</Link>
+          <Link to="/">Tube Pilot AI YouTube Creator OS</Link>
+          <Link to="/about">About Tube Pilot</Link>
           <Link to="/founder">Founder</Link>
           <Link to="/ai-studio">AI YouTube Title &amp; Description Generator</Link>
           <Link to="/faq">Frequently Asked Questions</Link>
@@ -72,7 +72,7 @@ export function SiteFooter() {
         </div>
       </div>
       <div className="container footer-bottom">
-        <span>© {new Date().getFullYear()} TubePilot by Anik Kumar. All rights reserved.</span>
+        <span>© {new Date().getFullYear()} Tube Pilot by Anik Kumar. All rights reserved.</span>
         <span>
           Made in India · Official:{" "}
           <a href="https://www.tubepilot.shop" target="_blank" rel="noopener noreferrer">www.tubepilot.shop</a> ·{" "}

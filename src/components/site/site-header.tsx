@@ -55,9 +55,9 @@ export function SiteHeader() {
       <div className="container row">
         <Link className="brand" to="/" onClick={() => setOpen(false)}>
           <span className="mark">
-            <img src="/images/logo.png" alt="TubePilot logo" width="512" height="512" decoding="async" />
+            <img src="/images/logo.png" alt="Tube Pilot logo" width="512" height="512" decoding="async" />
           </span>
-          TubePilot
+          Tube Pilot
         </Link>
         <nav
           className={"nav-links" + (open ? " open" : "")}

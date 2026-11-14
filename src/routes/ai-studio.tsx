@@ -68,14 +68,14 @@ function AiStudioPage() {
       <div className="mx-auto max-w-5xl">
         <div className="mx-auto mb-8 max-w-2xl text-center">
           <span className="mb-4 inline-flex items-center gap-2 rounded-full border border-[#e7cde9] bg-white px-4 py-2 text-xs font-bold uppercase tracking-[0.18em] text-[#74146f] shadow-sm">
-            <Sparkles size={15} /> TubePilot AI Studio
+            <Sparkles size={15} /> Tube Pilot AI Studio
           </span>
           <h1 className="text-3xl font-black tracking-tight text-[#241327] sm:text-5xl">
             Turn your video idea into a <span className="text-[#861b80]">creator-ready pack.</span>
           </h1>
           <p className="mt-4 text-base leading-7 text-[#695b6d]">
             Add your YouTube topic and get title ideas, a ready-to-edit description, and relevant hashtags.
-            This free tool is part of the <Link to="/" className="font-semibold text-[#74146f] underline underline-offset-4">TubePilot AI YouTube Creator OS by Bharat Cloud Technologies</Link>.
+            This free tool is part of the <Link to="/" className="font-semibold text-[#74146f] underline underline-offset-4">Tube Pilot AI YouTube Creator OS by Bharat Cloud Technologies</Link>.
             Explore our <Link to="/features" className="font-semibold text-[#74146f] underline underline-offset-4">YouTube Growth Tools</Link> for the wider creator workflow.
           </p>
         </div>
@@ -155,8 +155,8 @@ function AiStudioPage() {
 
         <section className="mx-auto mt-8 max-w-3xl rounded-2xl bg-[#26152a] px-5 py-7 text-center text-white shadow-xl shadow-[#35173a]/15 sm:px-8">
           <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#e8bde8]">Take your workflow further</p>
-          <h2 className="mt-2 text-xl font-extrabold sm:text-2xl">Create, optimize and schedule with TubePilot</h2>
-          <p className="mx-auto mt-2 max-w-xl text-sm leading-6 text-[#e5d8e7]">Get the TubePilot Android app and manage more of your YouTube creator workflow in one place.</p>
+          <h2 className="mt-2 text-xl font-extrabold sm:text-2xl">Create, optimize and schedule with Tube Pilot</h2>
+          <p className="mx-auto mt-2 max-w-xl text-sm leading-6 text-[#e5d8e7]">Get the Tube Pilot Android app and manage more of your YouTube creator workflow in one place.</p>
           <a href={PLAY_STORE_URL} target="_blank" rel="noopener noreferrer" className="mt-5 inline-flex min-h-12 items-center justify-center gap-2 rounded-xl bg-white px-6 py-3 text-sm font-bold text-[#5f155b] transition hover:-translate-y-0.5 hover:bg-[#f7eaf7]">
             <Download size={17} /> Download on Google Play
           </a>
@@ -169,10 +169,10 @@ function AiStudioPage() {
 export const Route = createFileRoute("/ai-studio")({
   head: () => ({
     meta: [
-      { title: "AI Studio | TubePilot - AI YouTube Creator OS" },
-      { name: "description", content: "Use TubePilot AI Studio to turn a YouTube video topic into title ideas, a video description and relevant hashtags." },
-      { property: "og:title", content: "AI Studio | TubePilot" },
-      { property: "og:description", content: "Turn your YouTube video idea into a creator-ready pack with TubePilot AI Studio." },
+      { title: "AI Studio | Tube Pilot - AI YouTube Creator OS" },
+      { name: "description", content: "Use Tube Pilot AI Studio to turn a YouTube video topic into title ideas, a video description and relevant hashtags." },
+      { property: "og:title", content: "AI Studio | Tube Pilot" },
+      { property: "og:description", content: "Turn your YouTube video idea into a creator-ready pack with Tube Pilot AI Studio." },
       { property: "og:url", content: "https://www.tubepilot.shop/ai-studio" },
       { name: "twitter:url", content: "https://www.tubepilot.shop/ai-studio" },
       { name: "twitter:card", content: "summary_large_image" },

@@ -1,4 +1,4 @@
-// Migrated from contact.html — TubePilot static site (main content only).
+// Migrated from contact.html — Tube Pilot static site (main content only).
 export const pageHtml = `
   <section class="legal-hero">
     <div class="container">
@@ -6,7 +6,7 @@ export const pageHtml = `
       <h1>How can we help?</h1>
       <p class="meta">
         For account, billing, upload, product or partnership questions,
-        contact the TubePilot team.
+        contact the Tube Pilot team.
       </p>
     </div>
   </section>  <section class="section">
@@ -36,7 +36,7 @@ export const pageHtml = `
   <article class="tp-card">
     <div class="tp-icon">◎</div>
     <h3>Founder</h3>
-    <p>TubePilot was founded by Anik Kumar.</p>
+    <p>Tube Pilot was founded by Anik Kumar.</p>
     <p style="margin-top:16px">
       <a href="/founder">Read founder profile →</a>
     </p>
@@ -53,12 +53,12 @@ export const pageHtml = `
           Before contacting support, you can also explore the
           <a href="/faq">Frequently Asked Questions</a>
           and
-          <a href="/docs">TubePilot documentation</a>
+          <a href="/docs">Tube Pilot documentation</a>
           for product guidance.
         </p>
         <p>
           To understand the platform and its tools, visit
-          <a href="/features">TubePilot Features</a>.
+          <a href="/features">Tube Pilot Features</a>.
         </p>
       </div>
     </div>

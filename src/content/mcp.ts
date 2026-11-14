@@ -1,29 +1,29 @@
-// Migrated from mcp.html — TubePilot static site (main content only).
+// Migrated from mcp.html — Tube Pilot static site (main content only).
 export const pageHtml = `
   <section class="tp-page-hero">
     <div class="container">  <span class="eyebrow">AI &amp; Agent Integration</span>
 
-  <h1>TubePilot MCP — Connect Compatible AI Workflows</h1>
+  <h1>Tube Pilot MCP — Connect Compatible AI Workflows</h1>
 
   <p class="meta">
-    TubePilot · Model Context Protocol · YouTube Creator Workflows
+    Tube Pilot · Model Context Protocol · YouTube Creator Workflows
   </p>
 
 </div>
 
   </section>  <section class="section">
     <div class="container tp-content">  <p>
-    <strong>TubePilot MCP</strong> refers to TubePilot's
+    <strong>Tube Pilot MCP</strong> refers to Tube Pilot's
     Model Context Protocol integration layer. It is designed
     to provide a structured way for compatible AI assistants
-    and agents to interact with supported TubePilot capabilities.
+    and agents to interact with supported Tube Pilot capabilities.
   </p>
 
   <p>
     The goal is to make supported YouTube creator workflows
     accessible through compatible AI-agent environments,
     subject to the actual tools, authentication methods and
-    permissions implemented by TubePilot.
+    permissions implemented by Tube Pilot.
   </p>
 
   <h2>What is Model Context Protocol (MCP)?</h2>
@@ -40,7 +40,7 @@ export const pageHtml = `
     the required authentication and configuration.
   </p>
 
-  <h2>What TubePilot MCP is intended to enable</h2>
+  <h2>What Tube Pilot MCP is intended to enable</h2>
 
   <ul>
     <li>
@@ -49,7 +49,7 @@ export const pageHtml = `
     </li>
 
     <li>
-      Make implemented and documented TubePilot tools accessible
+      Make implemented and documented Tube Pilot tools accessible
       to eligible AI-agent workflows.
     </li>
 
@@ -68,10 +68,10 @@ export const pageHtml = `
     </li>
   </ul>
 
-  <h2>How TubePilot MCP fits into the creator workflow</h2>
+  <h2>How Tube Pilot MCP fits into the creator workflow</h2>
 
   <p>
-    TubePilot is an AI-powered YouTube Creator OS focused on
+    Tube Pilot is an AI-powered YouTube Creator OS focused on
     content ideation, video optimization, publishing workflows
     and channel insights.
   </p>
@@ -101,7 +101,7 @@ export const pageHtml = `
     <li>Supported server transport and connection configuration.</li>
     <li>Authentication and account eligibility requirements.</li>
     <li>Permissions granted to the connected client.</li>
-    <li>The tools and operations actually available in TubePilot MCP.</li>
+    <li>The tools and operations actually available in Tube Pilot MCP.</li>
   </ul>
 
   <h2>Security and permissions</h2>
@@ -128,18 +128,18 @@ export const pageHtml = `
   <p>
     Exact MCP tool names, input schemas, server transport,
     authentication procedures and supported operations should
-    be taken from the current TubePilot technical documentation.
+    be taken from the current Tube Pilot technical documentation.
   </p>
 
   <p>
     Do not assume that an operation is available merely because
-    it is part of the broader TubePilot product direction.
+    it is part of the broader Tube Pilot product direction.
   </p>
 
-  <h2>About TubePilot</h2>
+  <h2>About Tube Pilot</h2>
 
   <p>
-    TubePilot is an AI-powered YouTube Creator OS founded by
+    Tube Pilot is an AI-powered YouTube Creator OS founded by
     <strong>Anik Kumar</strong>. Its product principle is:
   </p>
 
@@ -149,7 +149,7 @@ export const pageHtml = `
 
   <p>
     Learn more about the platform on the
-    <a href="/about">About TubePilot page</a>,
+    <a href="/about">About Tube Pilot page</a>,
     meet the <a href="/founder">founder</a>,
     or explore the <a href="/faq">frequently asked questions</a>.
   </p>
@@ -157,13 +157,13 @@ export const pageHtml = `
   <h2>Contact and support</h2>
 
   <p>
-    For questions about TubePilot and its supported integrations,
+    For questions about Tube Pilot and its supported integrations,
     contact:
     <a href="mailto:support@tubepilot.shop">support@tubepilot.shop</a>.
   </p>
 
   <p class="tp-note">
-    This page describes TubePilot's MCP integration direction.
+    This page describes Tube Pilot's MCP integration direction.
     Exact tool availability, schemas, authentication details and
     production capabilities must be confirmed against current
     technical documentation. Compatibility may vary by AI client
