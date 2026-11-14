@@ -1,4 +1,4 @@
-// Migrated from refund.html — TubePilot static site (main content only).
+// Migrated from refund.html — Tube Pilot static site (main content only).
 export const pageHtml = `
 <section class="legal-hero">
   <div class="container">
@@ -38,7 +38,7 @@ export const pageHtml = `
   </ul>
 
   <h2 id="failed-uploads">4. Failed uploads</h2>
-  <p>If an upload fails due to an error on TubePilot's side after credits were charged, you will be notified and the credit is not consumed for a failed attempt — a fresh attempt does not require an additional charge. If a video fails to upload because of a rejection or restriction from YouTube itself (for example, a copyright claim or policy violation on the content), that is outside TubePilot's control and the credit is not refunded, since the upload attempt was successfully made.</p>
+  <p>If an upload fails due to an error on Tube Pilot's side after credits were charged, you will be notified and the credit is not consumed for a failed attempt — a fresh attempt does not require an additional charge. If a video fails to upload because of a rejection or restriction from YouTube itself (for example, a copyright claim or policy violation on the content), that is outside Tube Pilot's control and the credit is not refunded, since the upload attempt was successfully made.</p>
 
   <h2 id="how-to-request">5. How to request a refund</h2>
   <p>To request a refund covered under this policy, email <a href="mailto:anikkesharwani37@gmail.com">anikkesharwani37@gmail.com</a> with your User ID, the transaction reference, and a description of the issue. You can also reach us through the app's Help &amp; Support menu or the <a href="/contact">Contact page</a>. We aim to respond within 3–5 business days.</p>
