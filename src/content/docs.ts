@@ -1,34 +1,34 @@
-// Migrated from docs.html — TubePilot static site (main content only).
+// Migrated from docs.html — Tube Pilot static site (main content only).
 export const pageHtml = `
   <section class="tp-page-hero">
     <div class="container">  <span class="eyebrow">Help Center &amp; User Guide</span>
 
-  <h1>TubePilot Documentation — Getting Started Guide</h1>
+  <h1>Tube Pilot Documentation — Getting Started Guide</h1>
 
   <p class="meta">
-    TubePilot · Create · Optimize · Schedule · Grow
+    Tube Pilot · Create · Optimize · Schedule · Grow
   </p>
 
 </div>
 
   </section>  <section class="section">
     <div class="container tp-content">  <p>
-    Welcome to the <strong>TubePilot documentation</strong>.
+    Welcome to the <strong>Tube Pilot documentation</strong>.
     This page provides an overview of the platform and basic
     guidance for getting started with its YouTube creator tools.
   </p>
 
   <p>
-    TubePilot is an AI-powered YouTube Creator OS that brings
+    Tube Pilot is an AI-powered YouTube Creator OS that brings
     content ideation, video optimization, upload, scheduling
     and analytics workflows together.
   </p>
 
-  <h2>1. Getting Started with TubePilot</h2>
+  <h2>1. Getting Started with Tube Pilot</h2>
 
   <ol>
     <li>
-      Create a TubePilot account using the sign-in options
+      Create a Tube Pilot account using the sign-in options
       displayed in the app.
     </li>
 
@@ -60,7 +60,7 @@ export const pageHtml = `
   <h2>2. Connecting Your YouTube Channel</h2>
 
   <p>
-    TubePilot uses the Google authorization flow to connect
+    Tube Pilot uses the Google authorization flow to connect
     eligible YouTube accounts.
   </p>
 
@@ -79,7 +79,7 @@ export const pageHtml = `
   <h2>3. AI Content Creation Tools</h2>
 
   <p>
-    TubePilot provides AI-assisted tools to support different
+    Tube Pilot provides AI-assisted tools to support different
     parts of YouTube content preparation.
   </p>
 
@@ -118,7 +118,7 @@ export const pageHtml = `
   <h2>4. Video Upload and Scheduling</h2>
 
   <p>
-    TubePilot includes supported workflows for uploading
+    Tube Pilot includes supported workflows for uploading
     videos and managing YouTube publishing schedules.
   </p>
 
@@ -139,7 +139,7 @@ export const pageHtml = `
   <h2>5. Analytics and Channel Insights</h2>
 
   <p>
-    TubePilot provides analytics-related features to help
+    Tube Pilot provides analytics-related features to help
     users review available video performance and channel
     information.
   </p>
@@ -159,7 +159,7 @@ export const pageHtml = `
   <h2>6. Diamonds and Usage</h2>
 
   <p>
-    TubePilot uses a Diamond or credit balance for eligible
+    Tube Pilot uses a Diamond or credit balance for eligible
     paid usage.
   </p>
 
@@ -194,10 +194,10 @@ export const pageHtml = `
     with other people.
   </p>
 
-  <h2>8. TubePilot MCP</h2>
+  <h2>8. Tube Pilot MCP</h2>
 
   <p>
-    TubePilot has its own Model Context Protocol (MCP)
+    Tube Pilot has its own Model Context Protocol (MCP)
     integration layer intended for compatible AI assistants
     and agent workflows.
   </p>
@@ -209,7 +209,7 @@ export const pageHtml = `
   </p>
 
   <p>
-    Read the <a href="/mcp">TubePilot MCP documentation</a>
+    Read the <a href="/mcp">Tube Pilot MCP documentation</a>
     for more information.
   </p>
 
@@ -218,7 +218,7 @@ export const pageHtml = `
   <p>
     For account-related questions, billing issues, upload
     problems or other assistance, visit the
-    <a href="/contact">TubePilot Contact page</a>.
+    <a href="/contact">Tube Pilot Contact page</a>.
   </p>
 
   <p>
@@ -234,16 +234,16 @@ export const pageHtml = `
     </a>.
   </p>
 
-  <h2>10. Explore More TubePilot Resources</h2>
+  <h2>10. Explore More Tube Pilot Resources</h2>
 
   <ul>
     <li>
-      <a href="/features">TubePilot Features</a> —
+      <a href="/features">Tube Pilot Features</a> —
       Explore available creator tools.
     </li>
 
     <li>
-      <a href="/about">About TubePilot</a> —
+      <a href="/about">About Tube Pilot</a> —
       Learn about the platform.
     </li>
 
@@ -253,7 +253,7 @@ export const pageHtml = `
     </li>
 
     <li>
-      <a href="/mcp">TubePilot MCP</a> —
+      <a href="/mcp">Tube Pilot MCP</a> —
       Learn about AI-agent integration.
     </li>
 
@@ -268,7 +268,7 @@ export const pageHtml = `
     Feature availability, account eligibility, pricing,
     permissions and workflows can change with app versions
     and production updates. Always follow the instructions
-    and information displayed in the live TubePilot app.
+    and information displayed in the live Tube Pilot app.
   </p>
 
 </div>
