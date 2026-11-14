@@ -1,4 +1,4 @@
-// Migrated from faq.html — TubePilot static site (main content only).
+// Migrated from faq.html — Tube Pilot static site (main content only).
 export const pageHtml = `
 
 
@@ -8,7 +8,7 @@ export const pageHtml = `
 <div class="container">
 <span class="eyebrow">Help & Information</span>
 <h1>Frequently Asked Questions</h1>
-<p class="meta">Everything you need to know about TubePilot.</p>
+<p class="meta">Everything you need to know about Tube Pilot.</p>
 </div>
 </section>
 
@@ -17,9 +17,9 @@ export const pageHtml = `
 <div class="container">
 
 <div class="faq-intro">
-<h2>About TubePilot</h2>
+<h2>About Tube Pilot</h2>
 <p>
-Learn about TubePilot, its AI-powered creator tools,
+Learn about Tube Pilot, its AI-powered creator tools,
 YouTube workflow and the vision behind the platform.
 </p>
 </div>
@@ -28,12 +28,12 @@ YouTube workflow and the vision behind the platform.
 
 <div class="faq-item open">
 <button class="faq-question">
-What is TubePilot?
+What is Tube Pilot?
 <span>+</span>
 </button>
 <div class="faq-answer">
 <p>
-TubePilot is an AI-powered YouTube Creator OS that brings
+Tube Pilot is an AI-powered YouTube Creator OS that brings
 content creation, optimization, publishing, scheduling
 and analytics into one workflow.
 </p>
@@ -42,12 +42,12 @@ and analytics into one workflow.
 
 <div class="faq-item">
 <button class="faq-question">
-Who is the founder of TubePilot?
+Who is the founder of Tube Pilot?
 <span>+</span>
 </button>
 <div class="faq-answer">
 <p>
-<strong>Anik Kumar</strong> is the founder of TubePilot.
+<strong>Anik Kumar</strong> is the founder of Tube Pilot.
 His vision is to make essential YouTube creator workflows
 easier to manage through useful AI-assisted tools.
 </p>
@@ -59,12 +59,12 @@ Read the <a href="/founder">official Founder Profile</a>.
 
 <div class="faq-item">
 <button class="faq-question">
-Who can use TubePilot?
+Who can use Tube Pilot?
 <span>+</span>
 </button>
 <div class="faq-answer">
 <p>
-TubePilot is designed for YouTube creators who want to
+Tube Pilot is designed for YouTube creators who want to
 manage their content planning, optimization, publishing
 and performance workflow.
 </p>
@@ -73,12 +73,12 @@ and performance workflow.
 
 <div class="faq-item">
 <button class="faq-question">
-Does TubePilot generate YouTube video titles?
+Does Tube Pilot generate YouTube video titles?
 <span>+</span>
 </button>
 <div class="faq-answer">
 <p>
-Yes. TubePilot includes an AI Title Generator that helps
+Yes. Tube Pilot includes an AI Title Generator that helps
 creators generate title ideas for their YouTube videos.
 </p>
 </div>
@@ -86,12 +86,12 @@ creators generate title ideas for their YouTube videos.
 
 <div class="faq-item">
 <button class="faq-question">
-Can TubePilot generate video descriptions?
+Can Tube Pilot generate video descriptions?
 <span>+</span>
 </button>
 <div class="faq-answer">
 <p>
-TubePilot includes AI Description Generation to help
+Tube Pilot includes AI Description Generation to help
 creators prepare descriptions for their YouTube content.
 </p>
 </div>
@@ -99,12 +99,12 @@ creators prepare descriptions for their YouTube content.
 
 <div class="faq-item">
 <button class="faq-question">
-Does TubePilot help with YouTube SEO?
+Does Tube Pilot help with YouTube SEO?
 <span>+</span>
 </button>
 <div class="faq-answer">
 <p>
-TubePilot provides SEO optimization tools, including
+Tube Pilot provides SEO optimization tools, including
 support for video metadata and tags, to help creators
 work on YouTube content discoverability.
 </p>
@@ -113,12 +113,12 @@ work on YouTube content discoverability.
 
 <div class="faq-item">
 <button class="faq-question">
-Can creators schedule videos with TubePilot?
+Can creators schedule videos with Tube Pilot?
 <span>+</span>
 </button>
 <div class="faq-answer">
 <p>
-TubePilot includes video upload and smart scheduling
+Tube Pilot includes video upload and smart scheduling
 features to help creators manage their YouTube publishing workflow.
 </p>
 </div>
@@ -126,12 +126,12 @@ features to help creators manage their YouTube publishing workflow.
 
 <div class="faq-item">
 <button class="faq-question">
-Does TubePilot provide channel analytics?
+Does Tube Pilot provide channel analytics?
 <span>+</span>
 </button>
 <div class="faq-answer">
 <p>
-TubePilot includes video analytics and channel insights
+Tube Pilot includes video analytics and channel insights
 to help creators understand their content performance.
 </p>
 </div>
@@ -139,13 +139,13 @@ to help creators understand their content performance.
 
 <div class="faq-item">
 <button class="faq-question">
-What is TubePilot MCP?
+What is Tube Pilot MCP?
 <span>+</span>
 </button>
 <div class="faq-answer">
 <p>
 MCP stands for Model Context Protocol.
-TubePilot has an MCP-related integration initiative.
+Tube Pilot has an MCP-related integration initiative.
 Its available capabilities depend on the tools that have
 actually been implemented and tested.
 </p>
@@ -154,7 +154,7 @@ actually been implemented and tested.
 
 <div class="faq-item">
 <button class="faq-question">
-How can I contact TubePilot?
+How can I contact Tube Pilot?
 <span>+</span>
 </button>
 <div class="faq-answer">
