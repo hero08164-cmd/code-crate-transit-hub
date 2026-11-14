@@ -1,4 +1,4 @@
-// Migrated from index.html — TubePilot static site (main content only).
+// Migrated from index.html — Tube Pilot static site (main content only).
 export const pageHtml = `
 <!-- HERO SECTION --><section class="hero">
 <div class="container tp-hero-layout"><div>
@@ -6,7 +6,7 @@ export const pageHtml = `
 Build better videos.<br>
 <span class="accent">Grow with intention.</span>
 </h1><p class="lead">
-TubePilot is an AI-powered YouTube Creator OS that helps creators move from an idea to an optimized, scheduled and published video — then understand performance.
+Tube Pilot is an AI-powered YouTube Creator OS that helps creators move from an idea to an optimized, scheduled and published video — then understand performance.
 </p><div class="hero-cta">
 <a class="btn btn-primary btn-lg" href="https://play.google.com/store/apps/details?id=com.tubepilot.app" target="_blank" rel="noopener noreferrer">Download on Google Play</a>
 <a class="btn btn-outline btn-lg" href="/ai-studio">AI YouTube Title &amp; Description Generator</a>
@@ -18,7 +18,7 @@ TubePilot is an AI-powered YouTube Creator OS that helps creators move from an i
 <span>GROW</span>
 </div>
 <p class="hero-feature-summary"><strong>Creator tools:</strong> AI ideas & planning · Titles & descriptions · YouTube SEO · Smart scheduling · Analytics</p><p class="hero-note">Founded by <a href="/founder">Anik Kumar</a> · Bharat Cloud Technologies · Official website: www.tubepilot.shop</p>
-<div class="hero-social-links" aria-label="Official TubePilot and founder profiles" style="display:flex;flex-wrap:wrap;gap:12px;margin-top:18px">
+<div class="hero-social-links" aria-label="Official Tube Pilot and founder profiles" style="display:flex;flex-wrap:wrap;gap:12px;margin-top:18px">
 <a href="https://www.linkedin.com/in/bharatcloudtechnologies" target="_blank" rel="noopener noreferrer">Founder LinkedIn</a>
 <a href="https://www.linkedin.com/company/tubepilotapp/" target="_blank" rel="noopener noreferrer">Company LinkedIn</a>
 <a href="https://www.instagram.com/tubepilot.app" target="_blank" rel="noopener noreferrer">Instagram</a>
@@ -43,7 +43,7 @@ TubePilot is an AI-powered YouTube Creator OS that helps creators move from an i
 <span class="tp-float-chip tp-chip-2">◷ Smart Scheduling</span>
 <span class="tp-float-chip tp-chip-3">↗ Analytics</span>
 </div>
-<p class="tp-note">Plan, prepare and manage your YouTube publishing workflow with TubePilot.</p>
+<p class="tp-note">Plan, prepare and manage your YouTube publishing workflow with Tube Pilot.</p>
 </div></div>
 </section><!-- FEATURES SECTION --><section class="section" id="features">
 <div class="container"><div class="section-head">
@@ -85,7 +85,7 @@ Spend less time switching between tasks and more time creating content your audi
 <p>Inspect your channel and identify opportunities to improve your content approach.</p>
 </article><article class="tp-card">
 <div class="tp-icon">⌘</div>
-<h3>TubePilot MCP</h3>
+<h3>Tube Pilot MCP</h3>
 <p>A structured integration layer for compatible AI assistants and agent workflows, subject to client compatibility and implemented tools.</p>
 </article></div>
 </div>
@@ -113,7 +113,7 @@ Spend less time switching between tasks and more time creating content your audi
 <span class="eyebrow" style="color:#e8c9e7">
 Creator-first pricing
 </span><h2>Start small. Create more.</h2><p>
-TubePilot includes a Diamond Store with multiple credit packages. Package balances and entitlements are displayed in the app; check the live app for current availability and pricing.
+Tube Pilot includes a Diamond Store with multiple credit packages. Package balances and entitlements are displayed in the app; check the live app for current availability and pricing.
 </p><a class="btn btn-outline btn-lg" href="/contact">
 Pricing & support
 </a>
@@ -126,12 +126,12 @@ Package prices and feature entitlements may change. The app's live Diamond Store
 </div></div>
 </section><!-- FOUNDER SECTION --><section class="section">
 <div class="container tp-founder"><div class="tp-founder-mark">
-<img src="/images/logo.png" alt="TubePilot logo" width="512" height="512" loading="lazy" decoding="async">
+<img src="/images/logo.png" alt="Tube Pilot logo" width="512" height="512" loading="lazy" decoding="async">
 </div><div>
 <span class="eyebrow">The people behind the product</span><h2>Built with a creator-first vision</h2><p>
-TubePilot is being developed to bring the essential YouTube creator workflow into one connected platform. Learn about the product and its founder Anik Kumar.
+Tube Pilot is being developed to bring the essential YouTube creator workflow into one connected platform. Learn about the product and its founder Anik Kumar.
 </p><a class="btn btn-outline" href="/founder">Meet the founder</a>
-<a class="btn btn-outline" href="/about">About TubePilot</a>
+<a class="btn btn-outline" href="/about">About Tube Pilot</a>
 </div>
 </div>
 </section><!-- WHAT IS TUBEPILOT — SEO CONTENT -->
@@ -139,21 +139,21 @@ TubePilot is being developed to bring the essential YouTube creator workflow int
 <div class="container tp-seo-content">
 <div class="section-head">
 <span class="eyebrow">About the product</span>
-<h2>What is TubePilot?</h2>
+<h2>What is Tube Pilot?</h2>
 </div>
-<p><strong>TubePilot</strong> is an AI-powered YouTube Creator OS — an Android app built by
+<p><strong>Tube Pilot</strong> is an AI-powered YouTube Creator OS — an Android app built by
 founder <a href="/founder">Anik Kumar</a> that brings the essential YouTube creator
 workflow into one connected place. Instead of juggling separate tools, creators plan,
 package, publish and review their videos from a single workspace.</p>
-<p><strong>TubePilot AI</strong> includes AI video ideas and planning, AI titles and
+<p><strong>Tube Pilot AI</strong> includes AI video ideas and planning, AI titles and
 descriptions, hashtags and metadata, a YouTube SEO optimizer, a thumbnail and visual
 workflow, video upload with smart scheduling, video analytics, a channel audit,
-Competitor Radar and <a href="/mcp">TubePilot MCP</a> for compatible AI assistants.</p>
-<p>The official <strong>TubePilot app</strong> is available on Google Play. Download it to
+Competitor Radar and <a href="/mcp">Tube Pilot MCP</a> for compatible AI assistants.</p>
+<p>The official <strong>Tube Pilot app</strong> is available on Google Play. Download it to
 start creating, or explore the full <a href="/features">YouTube Growth Tools</a> and
-<a href="/about">about page</a> to see how it fits your channel workflow. Try the <a href="/ai-studio">TubePilot AI Studio title and description generator</a> for a quick creator pack.</p>
+<a href="/about">about page</a> to see how it fits your channel workflow. Try the <a href="/ai-studio">Tube Pilot AI Studio title and description generator</a> for a quick creator pack.</p>
 <div class="hero-cta">
-<a class="btn btn-primary btn-lg" href="https://play.google.com/store/apps/details?id=com.tubepilot.app">Download TubePilot App</a>
+<a class="btn btn-primary btn-lg" href="https://play.google.com/store/apps/details?id=com.tubepilot.app">Download Tube Pilot App</a>
 <a class="btn btn-outline btn-lg" href="/features">Explore features</a>
 </div>
 </div>
@@ -162,22 +162,22 @@ start creating, or explore the full <a href="/features">YouTube Growth Tools</a>
 <!-- FAQ & CREATOR GUIDE --><section class="section" id="faq">
 <div class="container tp-seo-content">
 <div class="section-head">
-<span class="eyebrow">TubePilot creator guide</span><h2>AI YouTube Creator OS: answers for creators</h2>
-<p>Learn how TubePilot brings planning, optimization, publishing and channel insights into one YouTube creator workflow.</p>
+<span class="eyebrow">Tube Pilot creator guide</span><h2>AI YouTube Creator OS: answers for creators</h2>
+<p>Learn how Tube Pilot brings planning, optimization, publishing and channel insights into one YouTube creator workflow.</p>
 </div>
-<article><h3>What is TubePilot?</h3><p>TubePilot is an AI-powered YouTube Creator OS and Android app designed to help creators plan video ideas, prepare titles and descriptions, work with hashtags and metadata, optimize video SEO, upload and schedule content, and review available channel performance insights in one connected workflow.</p></article>
-<article><h3>Who is the founder of TubePilot?</h3><p>TubePilot was founded by Anik Kumar and is operated by Bharat Cloud Technologies. Visit the <a href="/founder">Founder profile</a> to learn more about the product's creator-first vision and connect through the founder's <a href="https://www.linkedin.com/in/bharatcloudtechnologies" target="_blank" rel="noopener noreferrer">LinkedIn profile</a>.</p></article>
-<article><h3>How can creators grow on YouTube using AI?</h3><p>AI can support the creator workflow by helping brainstorm relevant topics, draft and refine titles and descriptions, organize metadata, prepare a publishing plan, and review performance data. Creators should validate suggestions against their audience, channel analytics and the actual video rather than relying on automated output alone. TubePilot brings several of these tasks together in one workflow.</p></article>
-<article><h3>What are the best AI tools for YouTube creators?</h3><p>Useful creator tools include topic and idea planners, title and description assistants, hashtag and metadata helpers, YouTube SEO checklists, thumbnail planning tools, scheduling workflows and analytics. Explore <a href="/features">TubePilot YouTube Growth Tools</a> or try the <a href="/ai-studio">AI YouTube Title &amp; Description Generator</a> in TubePilot AI Studio.</p></article>
+<article><h3>What is Tube Pilot?</h3><p>Tube Pilot is an AI-powered YouTube Creator OS and Android app designed to help creators plan video ideas, prepare titles and descriptions, work with hashtags and metadata, optimize video SEO, upload and schedule content, and review available channel performance insights in one connected workflow.</p></article>
+<article><h3>Who is the founder of Tube Pilot?</h3><p>Tube Pilot was founded by Anik Kumar and is operated by Bharat Cloud Technologies. Visit the <a href="/founder">Founder profile</a> to learn more about the product's creator-first vision and connect through the founder's <a href="https://www.linkedin.com/in/bharatcloudtechnologies" target="_blank" rel="noopener noreferrer">LinkedIn profile</a>.</p></article>
+<article><h3>How can creators grow on YouTube using AI?</h3><p>AI can support the creator workflow by helping brainstorm relevant topics, draft and refine titles and descriptions, organize metadata, prepare a publishing plan, and review performance data. Creators should validate suggestions against their audience, channel analytics and the actual video rather than relying on automated output alone. Tube Pilot brings several of these tasks together in one workflow.</p></article>
+<article><h3>What are the best AI tools for YouTube creators?</h3><p>Useful creator tools include topic and idea planners, title and description assistants, hashtag and metadata helpers, YouTube SEO checklists, thumbnail planning tools, scheduling workflows and analytics. Explore <a href="/features">Tube Pilot YouTube Growth Tools</a> or try the <a href="/ai-studio">AI YouTube Title &amp; Description Generator</a> in Tube Pilot AI Studio.</p></article>
 <div class="hero-cta">
-<a class="btn btn-primary btn-lg" href="https://play.google.com/store/apps/details?id=com.tubepilot.app" target="_blank" rel="noopener noreferrer">Download TubePilot on Google Play</a>
+<a class="btn btn-primary btn-lg" href="https://play.google.com/store/apps/details?id=com.tubepilot.app" target="_blank" rel="noopener noreferrer">Download Tube Pilot on Google Play</a>
 <a class="btn btn-outline btn-lg" href="/faq">Explore all FAQs</a>
 <a class="btn btn-outline btn-lg" href="/ai-studio">Try the AI YouTube Title &amp; Description Generator</a>
 </div>
 </div>
 </section><!-- CONTACT SECTION --><section class="section" style="padding-top:0">
 <div class="container"><div class="section-head">
-<span class="eyebrow">Questions?</span><h2>Need help with TubePilot?</h2><p>
+<span class="eyebrow">Questions?</span><h2>Need help with Tube Pilot?</h2><p>
 For account, billing, product or partnership questions, contact our support team.
 </p><a class="btn btn-primary btn-lg" href="mailto:support@tubepilot.shop">
 support@tubepilot.shop
