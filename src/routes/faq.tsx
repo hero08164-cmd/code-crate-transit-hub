@@ -6,16 +6,16 @@ import { pageHtml } from "@/content/faq";
 export const Route = createFileRoute("/faq")({
   head: () => ({
     meta: [
-      { title: "TubePilot FAQ – AI YouTube Creator Tools" },
-      { name: "description", content: "Get answers about TubePilot, the AI YouTube Creator OS, including video ideas, SEO, scheduling, analytics and account support." },
+      { title: "Tube Pilot FAQ – AI YouTube Creator Tools" },
+      { name: "description", content: "Get answers about Tube Pilot, the AI YouTube Creator OS, including video ideas, SEO, scheduling, analytics and account support." },
       { property: "og:type", content: "website" },
-      { property: "og:title", content: "TubePilot FAQ – AI YouTube Creator Tools" },
-      { property: "og:description", content: "Answers about TubePilot's AI tools, YouTube publishing workflow, scheduling, analytics and support." },
+      { property: "og:title", content: "Tube Pilot FAQ – AI YouTube Creator Tools" },
+      { property: "og:description", content: "Answers about Tube Pilot's AI tools, YouTube publishing workflow, scheduling, analytics and support." },
       { property: "og:url", content: "https://www.tubepilot.shop/faq" },
       { name: "twitter:url", content: "https://www.tubepilot.shop/faq" },
       { name: "twitter:card", content: "summary" },
-      { name: "twitter:title", content: "TubePilot FAQ – AI YouTube Creator Tools" },
-      { name: "twitter:description", content: "Answers about TubePilot's AI tools, YouTube publishing workflow, scheduling, analytics and support." },
+      { name: "twitter:title", content: "Tube Pilot FAQ – AI YouTube Creator Tools" },
+      { name: "twitter:description", content: "Answers about Tube Pilot's AI tools, YouTube publishing workflow, scheduling, analytics and support." },
     ],
     links: [{"rel":"canonical","href":"https://www.tubepilot.shop/faq"}],
   }),
