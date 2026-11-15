@@ -24,6 +24,7 @@ import { Route as PrivacyRouteImport } from './routes/privacy'
 import { Route as RefundRouteImport } from './routes/refund'
 import { Route as TermsRouteImport } from './routes/terms'
 import { Route as WatchTimeCalculatorRouteImport } from './routes/watch-time-calculator'
+import { Route as ChannelNameGeneratorRouteImport } from './routes/channel-name-generator'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -100,6 +101,11 @@ const WatchTimeCalculatorRoute = WatchTimeCalculatorRouteImport.update({
   path: '/watch-time-calculator',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ChannelNameGeneratorRoute = ChannelNameGeneratorRouteImport.update({
+  id: '/channel-name-generator',
+  path: '/channel-name-generator',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -117,6 +123,7 @@ export interface FileRoutesByFullPath {
   '/refund': typeof RefundRoute
   '/terms': typeof TermsRoute
   '/watch-time-calculator': typeof WatchTimeCalculatorRoute
+  '/channel-name-generator': typeof ChannelNameGeneratorRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -134,6 +141,7 @@ export interface FileRoutesByTo {
   '/refund': typeof RefundRoute
   '/terms': typeof TermsRoute
   '/watch-time-calculator': typeof WatchTimeCalculatorRoute
+  '/channel-name-generator': typeof ChannelNameGeneratorRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -152,6 +160,7 @@ export interface FileRoutesById {
   '/refund': typeof RefundRoute
   '/terms': typeof TermsRoute
   '/watch-time-calculator': typeof WatchTimeCalculatorRoute
+  '/channel-name-generator': typeof ChannelNameGeneratorRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -171,6 +180,7 @@ export interface FileRouteTypes {
     | '/refund'
     | '/terms'
     | '/watch-time-calculator'
+    | '/channel-name-generator'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -188,6 +198,7 @@ export interface FileRouteTypes {
     | '/refund'
     | '/terms'
     | '/watch-time-calculator'
+    | '/channel-name-generator'
   id:
     | '__root__'
     | '/'
@@ -205,6 +216,7 @@ export interface FileRouteTypes {
     | '/refund'
     | '/terms'
     | '/watch-time-calculator'
+    | '/channel-name-generator'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -223,6 +235,7 @@ export interface RootRouteChildren {
   RefundRoute: typeof RefundRoute
   TermsRoute: typeof TermsRoute
   WatchTimeCalculatorRoute: typeof WatchTimeCalculatorRoute
+  ChannelNameGeneratorRoute: typeof ChannelNameGeneratorRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -332,6 +345,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof WatchTimeCalculatorRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/channel-name-generator': {
+      id: '/channel-name-generator'
+      path: '/channel-name-generator'
+      fullPath: '/channel-name-generator'
+      preLoaderRoute: typeof ChannelNameGeneratorRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/watch-time-calculator': {
       id: '/watch-time-calculator'
       path: '/watch-time-calculator'
@@ -358,6 +378,7 @@ const rootRouteChildren: RootRouteChildren = {
   RefundRoute: RefundRoute,
   TermsRoute: TermsRoute,
   WatchTimeCalculatorRoute: WatchTimeCalculatorRoute,
+  ChannelNameGeneratorRoute: ChannelNameGeneratorRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
