@@ -189,6 +189,8 @@ export const pageHtml = `
   <p>Use the Tube Pilot Watch Time Calculator to estimate viewing hours from your video count, average views, view duration and audience retention.</p>
   <p><a href="/watch-time-calculator"><strong>Try the free YouTube Watch Time Calculator</strong></a> — model your watch-time goals with an interactive estimate. This is a planning calculator, not an official YouTube eligibility check.</p>
 
+  <p><a href="/channel-name-generator"><strong>Try the free YouTube Channel Name Generator</strong></a> — create name ideas by niche, keyword and style. Availability is not automatically checked.</p>
+
   <h2>Explore More About Tube Pilot</h2>
 
   <ul>
