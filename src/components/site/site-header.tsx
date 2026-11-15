@@ -7,6 +7,7 @@ const routeLinks = [
   { label: "AI Studio", to: "/ai-studio" },
   { label: "Watch Time Calculator", to: "/watch-time-calculator" },
   { label: "Channel Name Generator", to: "/channel-name-generator" },
+  { label: "Thumbnail Downloader", to: "/youtube-thumbnail-downloader" },
   { label: "MCP", to: "/mcp" },
   { label: "Docs", to: "/docs" },
   { label: "Blog", to: "/blog" },
