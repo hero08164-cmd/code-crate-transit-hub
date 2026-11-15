@@ -5,9 +5,6 @@ const routeLinks = [
   { label: "About", to: "/about" },
   { label: "Founder", to: "/founder" },
   { label: "AI Studio", to: "/ai-studio" },
-  { label: "Watch Time Calculator", to: "/watch-time-calculator" },
-  { label: "Channel Name Generator", to: "/channel-name-generator" },
-  { label: "Thumbnail Downloader", to: "/youtube-thumbnail-downloader" },
   { label: "MCP", to: "/mcp" },
   { label: "Docs", to: "/docs" },
   { label: "Blog", to: "/blog" },
@@ -73,6 +70,14 @@ export function SiteHeader() {
               {l.label}
             </a>
           ))}
+          <details className="nav-dropdown">
+            <summary onClick={(event) => event.stopPropagation()}>Free Tools</summary>
+            <div className="nav-dropdown-menu">
+              <Link to="/watch-time-calculator" aria-current={pathname === "/watch-time-calculator" ? "page" : undefined}>Watch Time Calculator</Link>
+              <Link to="/channel-name-generator" aria-current={pathname === "/channel-name-generator" ? "page" : undefined}>Channel Name Generator</Link>
+              <Link to="/youtube-thumbnail-downloader" aria-current={pathname === "/youtube-thumbnail-downloader" ? "page" : undefined}>Thumbnail Downloader</Link>
+            </div>
+          </details>
           {routeLinks.map((l) => (
             <Link
               key={l.to}
