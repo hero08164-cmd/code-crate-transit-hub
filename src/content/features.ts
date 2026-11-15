@@ -191,6 +191,8 @@ export const pageHtml = `
 
   <p><a href="/channel-name-generator"><strong>Try the free YouTube Channel Name Generator</strong></a> — create name ideas by niche, keyword and style. Availability is not automatically checked.</p>
 
+  <p><a href="/youtube-thumbnail-downloader"><strong>Try the free YouTube Thumbnail Downloader</strong></a> — preview available public thumbnail variants by video URL or ID.</p>
+
   <h2>Explore More About Tube Pilot</h2>
 
   <ul>
