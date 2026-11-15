@@ -117,8 +117,6 @@ export interface FileRoutesByFullPath {
   '/refund': typeof RefundRoute
   '/terms': typeof TermsRoute
   '/watch-time-calculator': typeof WatchTimeCalculatorRoute
-  '/watch-time-calculator': typeof WatchTimeCalculatorRoute
-  '/watch-time-calculator': typeof WatchTimeCalculatorRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -135,6 +133,7 @@ export interface FileRoutesByTo {
   '/privacy': typeof PrivacyRoute
   '/refund': typeof RefundRoute
   '/terms': typeof TermsRoute
+  '/watch-time-calculator': typeof WatchTimeCalculatorRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -152,6 +151,7 @@ export interface FileRoutesById {
   '/privacy': typeof PrivacyRoute
   '/refund': typeof RefundRoute
   '/terms': typeof TermsRoute
+  '/watch-time-calculator': typeof WatchTimeCalculatorRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -187,6 +187,7 @@ export interface FileRouteTypes {
     | '/privacy'
     | '/refund'
     | '/terms'
+    | '/watch-time-calculator'
   id:
     | '__root__'
     | '/'
@@ -203,6 +204,7 @@ export interface FileRouteTypes {
     | '/privacy'
     | '/refund'
     | '/terms'
+    | '/watch-time-calculator'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -321,6 +323,13 @@ declare module '@tanstack/react-router' {
       path: '/terms'
       fullPath: '/terms'
       preLoaderRoute: typeof TermsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/watch-time-calculator': {
+      id: '/watch-time-calculator'
+      path: '/watch-time-calculator'
+      fullPath: '/watch-time-calculator'
+      preLoaderRoute: typeof WatchTimeCalculatorRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/watch-time-calculator': {
