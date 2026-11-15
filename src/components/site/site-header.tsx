@@ -73,9 +73,6 @@ export function SiteHeader() {
           <details className="nav-dropdown">
             <summary onClick={(event) => event.stopPropagation()}>Free Tools</summary>
             <div className="nav-dropdown-menu">
-              <Link to="/watch-time-calculator" aria-current={pathname === "/watch-time-calculator" ? "page" : undefined}>Watch Time Calculator</Link>
-              <Link to="/channel-name-generator" aria-current={pathname === "/channel-name-generator" ? "page" : undefined}>Channel Name Generator</Link>
-              <Link to="/youtube-thumbnail-downloader" aria-current={pathname === "/youtube-thumbnail-downloader" ? "page" : undefined}>Thumbnail Downloader</Link>
             </div>
           </details>
           {routeLinks.map((l) => (

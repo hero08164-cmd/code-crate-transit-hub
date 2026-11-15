@@ -1,0 +1,27 @@
+[1mdiff --git a/src/components/site/site-header.tsx b/src/components/site/site-header.tsx[m
+[1mindex 1a07327..b05f0fc 100644[m
+[1m--- a/src/components/site/site-header.tsx[m
+[1m+++ b/src/components/site/site-header.tsx[m
+[36m@@ -73,9 +73,6 @@[m [mexport function SiteHeader() {[m
+           <details className="nav-dropdown">[m
+             <summary onClick={(event) => event.stopPropagation()}>Free Tools</summary>[m
+             <div className="nav-dropdown-menu">[m
+[31m-              <Link to="/watch-time-calculator" aria-current={pathname === "/watch-time-calculator" ? "page" : undefined}>Watch Time Calculator</Link>[m
+[31m-              <Link to="/channel-name-generator" aria-current={pathname === "/channel-name-generator" ? "page" : undefined}>Channel Name Generator</Link>[m
+[31m-              <Link to="/youtube-thumbnail-downloader" aria-current={pathname === "/youtube-thumbnail-downloader" ? "page" : undefined}>Thumbnail Downloader</Link>[m
+             </div>[m
+           </details>[m
+           {routeLinks.map((l) => ([m
+[1mdiff --git a/src/content/features.ts b/src/content/features.ts[m
+[1mindex 633f6c2..bba64c9 100644[m
+[1m--- a/src/content/features.ts[m
+[1m+++ b/src/content/features.ts[m
+[36m@@ -185,7 +185,7 @@[m [mexport const pageHtml = `[m
+   </p>[m
+ [m
+ [m
+[31m-  <h2>Free YouTube Creator Tools</h2>[m
+[32m+[m[32m  <h2 id="free-tools">Free YouTube Creator Tools</h2>[m
+   <p>Use the Tube Pilot Watch Time Calculator to estimate viewing hours from your video count, average views, view duration and audience retention.</p>[m
+   <p><a href="/watch-time-calculator"><strong>Try the free YouTube Watch Time Calculator</strong></a> — model your watch-time goals with an interactive estimate. This is a planning calculator, not an official YouTube eligibility check.</p>[m
+ [m

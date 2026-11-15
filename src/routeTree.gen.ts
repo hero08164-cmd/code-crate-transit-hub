@@ -10,9 +10,10 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
-import { Route as AiStudioRouteImport } from './routes/ai-studio'
 import { Route as AboutRouteImport } from './routes/about'
+import { Route as AiStudioRouteImport } from './routes/ai-studio'
 import { Route as BlogRouteImport } from './routes/blog'
+import { Route as ChannelNameGeneratorRouteImport } from './routes/channel-name-generator'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as DeleteAccountRouteImport } from './routes/delete-account'
 import { Route as DocsRouteImport } from './routes/docs'
@@ -24,7 +25,6 @@ import { Route as PrivacyRouteImport } from './routes/privacy'
 import { Route as RefundRouteImport } from './routes/refund'
 import { Route as TermsRouteImport } from './routes/terms'
 import { Route as WatchTimeCalculatorRouteImport } from './routes/watch-time-calculator'
-import { Route as ChannelNameGeneratorRouteImport } from './routes/channel-name-generator'
 import { Route as YoutubeThumbnailDownloaderRouteImport } from './routes/youtube-thumbnail-downloader'
 
 const IndexRoute = IndexRouteImport.update({
@@ -32,19 +32,24 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
-const AiStudioRoute = AiStudioRouteImport.update({
-  id: '/ai-studio',
-  path: '/ai-studio',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const AboutRoute = AboutRouteImport.update({
   id: '/about',
   path: '/about',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AiStudioRoute = AiStudioRouteImport.update({
+  id: '/ai-studio',
+  path: '/ai-studio',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const BlogRoute = BlogRouteImport.update({
   id: '/blog',
   path: '/blog',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ChannelNameGeneratorRoute = ChannelNameGeneratorRouteImport.update({
+  id: '/channel-name-generator',
+  path: '/channel-name-generator',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ContactRoute = ContactRouteImport.update({
@@ -102,22 +107,19 @@ const WatchTimeCalculatorRoute = WatchTimeCalculatorRouteImport.update({
   path: '/watch-time-calculator',
   getParentRoute: () => rootRouteImport,
 } as any)
-const ChannelNameGeneratorRoute = ChannelNameGeneratorRouteImport.update({
-  id: '/channel-name-generator',
-  path: '/channel-name-generator',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const YoutubeThumbnailDownloaderRoute = YoutubeThumbnailDownloaderRouteImport.update({
-  id: '/youtube-thumbnail-downloader',
-  path: '/youtube-thumbnail-downloader',
-  getParentRoute: () => rootRouteImport,
-} as any)
+const YoutubeThumbnailDownloaderRoute =
+  YoutubeThumbnailDownloaderRouteImport.update({
+    id: '/youtube-thumbnail-downloader',
+    path: '/youtube-thumbnail-downloader',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/ai-studio': typeof AiStudioRoute
   '/about': typeof AboutRoute
+  '/ai-studio': typeof AiStudioRoute
   '/blog': typeof BlogRoute
+  '/channel-name-generator': typeof ChannelNameGeneratorRoute
   '/contact': typeof ContactRoute
   '/delete-account': typeof DeleteAccountRoute
   '/docs': typeof DocsRoute
@@ -129,14 +131,14 @@ export interface FileRoutesByFullPath {
   '/refund': typeof RefundRoute
   '/terms': typeof TermsRoute
   '/watch-time-calculator': typeof WatchTimeCalculatorRoute
-  '/channel-name-generator': typeof ChannelNameGeneratorRoute
   '/youtube-thumbnail-downloader': typeof YoutubeThumbnailDownloaderRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/ai-studio': typeof AiStudioRoute
   '/about': typeof AboutRoute
+  '/ai-studio': typeof AiStudioRoute
   '/blog': typeof BlogRoute
+  '/channel-name-generator': typeof ChannelNameGeneratorRoute
   '/contact': typeof ContactRoute
   '/delete-account': typeof DeleteAccountRoute
   '/docs': typeof DocsRoute
@@ -148,15 +150,15 @@ export interface FileRoutesByTo {
   '/refund': typeof RefundRoute
   '/terms': typeof TermsRoute
   '/watch-time-calculator': typeof WatchTimeCalculatorRoute
-  '/channel-name-generator': typeof ChannelNameGeneratorRoute
   '/youtube-thumbnail-downloader': typeof YoutubeThumbnailDownloaderRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
-  '/ai-studio': typeof AiStudioRoute
   '/about': typeof AboutRoute
+  '/ai-studio': typeof AiStudioRoute
   '/blog': typeof BlogRoute
+  '/channel-name-generator': typeof ChannelNameGeneratorRoute
   '/contact': typeof ContactRoute
   '/delete-account': typeof DeleteAccountRoute
   '/docs': typeof DocsRoute
@@ -168,16 +170,16 @@ export interface FileRoutesById {
   '/refund': typeof RefundRoute
   '/terms': typeof TermsRoute
   '/watch-time-calculator': typeof WatchTimeCalculatorRoute
-  '/channel-name-generator': typeof ChannelNameGeneratorRoute
   '/youtube-thumbnail-downloader': typeof YoutubeThumbnailDownloaderRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
-    | '/ai-studio'
     | '/about'
+    | '/ai-studio'
     | '/blog'
+    | '/channel-name-generator'
     | '/contact'
     | '/delete-account'
     | '/docs'
@@ -189,14 +191,14 @@ export interface FileRouteTypes {
     | '/refund'
     | '/terms'
     | '/watch-time-calculator'
-    | '/channel-name-generator'
     | '/youtube-thumbnail-downloader'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
-    | '/ai-studio'
     | '/about'
+    | '/ai-studio'
     | '/blog'
+    | '/channel-name-generator'
     | '/contact'
     | '/delete-account'
     | '/docs'
@@ -208,14 +210,14 @@ export interface FileRouteTypes {
     | '/refund'
     | '/terms'
     | '/watch-time-calculator'
-    | '/channel-name-generator'
     | '/youtube-thumbnail-downloader'
   id:
     | '__root__'
     | '/'
-    | '/ai-studio'
     | '/about'
+    | '/ai-studio'
     | '/blog'
+    | '/channel-name-generator'
     | '/contact'
     | '/delete-account'
     | '/docs'
@@ -227,15 +229,15 @@ export interface FileRouteTypes {
     | '/refund'
     | '/terms'
     | '/watch-time-calculator'
-    | '/channel-name-generator'
     | '/youtube-thumbnail-downloader'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  AiStudioRoute: typeof AiStudioRoute
   AboutRoute: typeof AboutRoute
+  AiStudioRoute: typeof AiStudioRoute
   BlogRoute: typeof BlogRoute
+  ChannelNameGeneratorRoute: typeof ChannelNameGeneratorRoute
   ContactRoute: typeof ContactRoute
   DeleteAccountRoute: typeof DeleteAccountRoute
   DocsRoute: typeof DocsRoute
@@ -247,7 +249,6 @@ export interface RootRouteChildren {
   RefundRoute: typeof RefundRoute
   TermsRoute: typeof TermsRoute
   WatchTimeCalculatorRoute: typeof WatchTimeCalculatorRoute
-  ChannelNameGeneratorRoute: typeof ChannelNameGeneratorRoute
   YoutubeThumbnailDownloaderRoute: typeof YoutubeThumbnailDownloaderRoute
 }
 
@@ -260,13 +261,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/ai-studio': {
-      id: '/ai-studio'
-      path: '/ai-studio'
-      fullPath: '/ai-studio'
-      preLoaderRoute: typeof AiStudioRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/about': {
       id: '/about'
       path: '/about'
@@ -274,11 +268,25 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AboutRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/ai-studio': {
+      id: '/ai-studio'
+      path: '/ai-studio'
+      fullPath: '/ai-studio'
+      preLoaderRoute: typeof AiStudioRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/blog': {
       id: '/blog'
       path: '/blog'
       fullPath: '/blog'
       preLoaderRoute: typeof BlogRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/channel-name-generator': {
+      id: '/channel-name-generator'
+      path: '/channel-name-generator'
+      fullPath: '/channel-name-generator'
+      preLoaderRoute: typeof ChannelNameGeneratorRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/contact': {
@@ -358,13 +366,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof WatchTimeCalculatorRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/channel-name-generator': {
-      id: '/channel-name-generator'
-      path: '/channel-name-generator'
-      fullPath: '/channel-name-generator'
-      preLoaderRoute: typeof ChannelNameGeneratorRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/youtube-thumbnail-downloader': {
       id: '/youtube-thumbnail-downloader'
       path: '/youtube-thumbnail-downloader'
@@ -372,21 +373,15 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof YoutubeThumbnailDownloaderRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/watch-time-calculator': {
-      id: '/watch-time-calculator'
-      path: '/watch-time-calculator'
-      fullPath: '/watch-time-calculator'
-      preLoaderRoute: typeof WatchTimeCalculatorRouteImport
-      parentRoute: typeof rootRouteImport
-    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  AiStudioRoute: AiStudioRoute,
   AboutRoute: AboutRoute,
+  AiStudioRoute: AiStudioRoute,
   BlogRoute: BlogRoute,
+  ChannelNameGeneratorRoute: ChannelNameGeneratorRoute,
   ContactRoute: ContactRoute,
   DeleteAccountRoute: DeleteAccountRoute,
   DocsRoute: DocsRoute,
@@ -398,7 +393,6 @@ const rootRouteChildren: RootRouteChildren = {
   RefundRoute: RefundRoute,
   TermsRoute: TermsRoute,
   WatchTimeCalculatorRoute: WatchTimeCalculatorRoute,
-  ChannelNameGeneratorRoute: ChannelNameGeneratorRoute,
   YoutubeThumbnailDownloaderRoute: YoutubeThumbnailDownloaderRoute,
 }
 export const routeTree = rootRouteImport

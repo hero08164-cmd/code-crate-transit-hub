@@ -185,7 +185,7 @@ export const pageHtml = `
   </p>
 
 
-  <h2>Free YouTube Creator Tools</h2>
+  <h2 id="free-tools">Free YouTube Creator Tools</h2>
   <p>Use the Tube Pilot Watch Time Calculator to estimate viewing hours from your video count, average views, view duration and audience retention.</p>
   <p><a href="/watch-time-calculator"><strong>Try the free YouTube Watch Time Calculator</strong></a> — model your watch-time goals with an interactive estimate. This is a planning calculator, not an official YouTube eligibility check.</p>
 
