@@ -70,11 +70,7 @@ export function SiteHeader() {
               {l.label}
             </a>
           ))}
-          <details className="nav-dropdown">
-            <summary onClick={(event) => event.stopPropagation()}>Free Tools</summary>
-            <div className="nav-dropdown-menu">
-            </div>
-          </details>
+          
           {routeLinks.map((l) => (
             <Link
               key={l.to}
