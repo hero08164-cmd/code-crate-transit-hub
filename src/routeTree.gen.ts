@@ -23,6 +23,9 @@ import { Route as McpRouteImport } from './routes/mcp'
 import { Route as PrivacyRouteImport } from './routes/privacy'
 import { Route as RefundRouteImport } from './routes/refund'
 import { Route as TermsRouteImport } from './routes/terms'
+import { Route as WatchTimeCalculatorRouteImport } from './routes/watch-time-calculator'
+import { Route as ChannelNameGeneratorRouteImport } from './routes/channel-name-generator'
+import { Route as YoutubeThumbnailDownloaderRouteImport } from './routes/youtube-thumbnail-downloader'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -94,6 +97,21 @@ const TermsRoute = TermsRouteImport.update({
   path: '/terms',
   getParentRoute: () => rootRouteImport,
 } as any)
+const WatchTimeCalculatorRoute = WatchTimeCalculatorRouteImport.update({
+  id: '/watch-time-calculator',
+  path: '/watch-time-calculator',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ChannelNameGeneratorRoute = ChannelNameGeneratorRouteImport.update({
+  id: '/channel-name-generator',
+  path: '/channel-name-generator',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const YoutubeThumbnailDownloaderRoute = YoutubeThumbnailDownloaderRouteImport.update({
+  id: '/youtube-thumbnail-downloader',
+  path: '/youtube-thumbnail-downloader',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -110,6 +128,9 @@ export interface FileRoutesByFullPath {
   '/privacy': typeof PrivacyRoute
   '/refund': typeof RefundRoute
   '/terms': typeof TermsRoute
+  '/watch-time-calculator': typeof WatchTimeCalculatorRoute
+  '/channel-name-generator': typeof ChannelNameGeneratorRoute
+  '/youtube-thumbnail-downloader': typeof YoutubeThumbnailDownloaderRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -126,6 +147,9 @@ export interface FileRoutesByTo {
   '/privacy': typeof PrivacyRoute
   '/refund': typeof RefundRoute
   '/terms': typeof TermsRoute
+  '/watch-time-calculator': typeof WatchTimeCalculatorRoute
+  '/channel-name-generator': typeof ChannelNameGeneratorRoute
+  '/youtube-thumbnail-downloader': typeof YoutubeThumbnailDownloaderRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -143,6 +167,9 @@ export interface FileRoutesById {
   '/privacy': typeof PrivacyRoute
   '/refund': typeof RefundRoute
   '/terms': typeof TermsRoute
+  '/watch-time-calculator': typeof WatchTimeCalculatorRoute
+  '/channel-name-generator': typeof ChannelNameGeneratorRoute
+  '/youtube-thumbnail-downloader': typeof YoutubeThumbnailDownloaderRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -161,6 +188,9 @@ export interface FileRouteTypes {
     | '/privacy'
     | '/refund'
     | '/terms'
+    | '/watch-time-calculator'
+    | '/channel-name-generator'
+    | '/youtube-thumbnail-downloader'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -177,6 +207,9 @@ export interface FileRouteTypes {
     | '/privacy'
     | '/refund'
     | '/terms'
+    | '/watch-time-calculator'
+    | '/channel-name-generator'
+    | '/youtube-thumbnail-downloader'
   id:
     | '__root__'
     | '/'
@@ -193,6 +226,9 @@ export interface FileRouteTypes {
     | '/privacy'
     | '/refund'
     | '/terms'
+    | '/watch-time-calculator'
+    | '/channel-name-generator'
+    | '/youtube-thumbnail-downloader'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -210,6 +246,9 @@ export interface RootRouteChildren {
   PrivacyRoute: typeof PrivacyRoute
   RefundRoute: typeof RefundRoute
   TermsRoute: typeof TermsRoute
+  WatchTimeCalculatorRoute: typeof WatchTimeCalculatorRoute
+  ChannelNameGeneratorRoute: typeof ChannelNameGeneratorRoute
+  YoutubeThumbnailDownloaderRoute: typeof YoutubeThumbnailDownloaderRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -312,6 +351,34 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof TermsRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/watch-time-calculator': {
+      id: '/watch-time-calculator'
+      path: '/watch-time-calculator'
+      fullPath: '/watch-time-calculator'
+      preLoaderRoute: typeof WatchTimeCalculatorRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/channel-name-generator': {
+      id: '/channel-name-generator'
+      path: '/channel-name-generator'
+      fullPath: '/channel-name-generator'
+      preLoaderRoute: typeof ChannelNameGeneratorRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/youtube-thumbnail-downloader': {
+      id: '/youtube-thumbnail-downloader'
+      path: '/youtube-thumbnail-downloader'
+      fullPath: '/youtube-thumbnail-downloader'
+      preLoaderRoute: typeof YoutubeThumbnailDownloaderRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/watch-time-calculator': {
+      id: '/watch-time-calculator'
+      path: '/watch-time-calculator'
+      fullPath: '/watch-time-calculator'
+      preLoaderRoute: typeof WatchTimeCalculatorRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -330,6 +397,9 @@ const rootRouteChildren: RootRouteChildren = {
   PrivacyRoute: PrivacyRoute,
   RefundRoute: RefundRoute,
   TermsRoute: TermsRoute,
+  WatchTimeCalculatorRoute: WatchTimeCalculatorRoute,
+  ChannelNameGeneratorRoute: ChannelNameGeneratorRoute,
+  YoutubeThumbnailDownloaderRoute: YoutubeThumbnailDownloaderRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
