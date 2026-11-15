@@ -15,7 +15,7 @@ const endings = ["Studio", "Hub", "Zone", "World", "Lab", "Corner", "Diary", "TV
 function buildNames(topic: string, keyword: string, style: string) {
   const base = (keyword.trim() || topic.trim()).replace(/[^a-zA-Z0-9 ]/g, "").trim();
   const clean = base ? base.charAt(0).toUpperCase() + base.slice(1) : "Creator";
-  const pool = words[topic] ?? words.general;
+  const pool = words[topic] ?? words["general"]!;
   const candidates = [
     clean + " " + endings[0],
     pool[0] + clean,
