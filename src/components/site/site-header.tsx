@@ -5,6 +5,7 @@ const routeLinks = [
   { label: "About", to: "/about" },
   { label: "Founder", to: "/founder" },
   { label: "AI Studio", to: "/ai-studio" },
+  { label: "YouTube Tools", to: "/watch-time-calculator" },
   { label: "MCP", to: "/mcp" },
   { label: "Docs", to: "/docs" },
   { label: "Blog", to: "/blog" },
