@@ -155,36 +155,6 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           inLanguage: "en-IN",
         }),
       },
-      {
-        type: "application/ld+json",
-        children: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          url: "https://www.tubepilot.shop/faq",
-          mainEntity: [
-            {
-              "@type": "Question",
-              name: "What is Tube Pilot?",
-              acceptedAnswer: { "@type": "Answer", text: "Tube Pilot is an AI-powered YouTube Creator OS and Android app designed to help creators plan video ideas, prepare titles and descriptions, work with hashtags and metadata, optimize video SEO, upload and schedule content, and review available channel performance insights." },
-            },
-            {
-              "@type": "Question",
-              name: "Who is the founder of Tube Pilot?",
-              acceptedAnswer: { "@type": "Answer", text: "Tube Pilot was founded by Anik Kumar and is operated by Bharat Cloud Technologies." },
-            },
-            {
-              "@type": "Question",
-              name: "How can creators grow on YouTube using AI?",
-              acceptedAnswer: { "@type": "Answer", text: "AI can help brainstorm topics, draft and refine titles and descriptions, organize metadata, prepare a publishing plan, and review performance data. Creators should validate suggestions against their audience, channel analytics and the actual video." },
-            },
-            {
-              "@type": "Question",
-              name: "What are the best AI tools for YouTube creators?",
-              acceptedAnswer: { "@type": "Answer", text: "Useful tools include topic planners, title and description assistants, hashtag and metadata helpers, YouTube SEO checklists, thumbnail planning tools, scheduling workflows and analytics." },
-            },
-          ],
-        }),
-      },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
