@@ -97,10 +97,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:title", content: "Tube Pilot - AI YouTube Creator OS" },
       { property: "og:description", content: "CREATE, OPTIMIZE, SCHEDULE and GROW with Tube Pilot AI tools and our Model Context Protocol (MCP) layer." },
       { property: "og:image", content: "https://www.tubepilot.shop/images/logo.png" },
+      { property: "og:image:alt", content: "Tube Pilot app logo" },
+      { property: "og:image:width", content: "512" },
+      { property: "og:image:height", content: "512" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "Tube Pilot - AI YouTube Creator OS" },
       { name: "twitter:description", content: "CREATE, OPTIMIZE, SCHEDULE and GROW with Tube Pilot AI tools and our MCP layer." },
       { name: "twitter:image", content: "https://www.tubepilot.shop/images/logo.png" },
+      { name: "twitter:image:alt", content: "Tube Pilot app logo" },
     ],
     scripts: [
       {
@@ -153,36 +157,6 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           url: "https://www.tubepilot.shop/",
           publisher: { "@type": "Organization", name: "Bharat Cloud Technologies" },
           inLanguage: "en-IN",
-        }),
-      },
-      {
-        type: "application/ld+json",
-        children: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          url: "https://www.tubepilot.shop/faq",
-          mainEntity: [
-            {
-              "@type": "Question",
-              name: "What is Tube Pilot?",
-              acceptedAnswer: { "@type": "Answer", text: "Tube Pilot is an AI-powered YouTube Creator OS and Android app designed to help creators plan video ideas, prepare titles and descriptions, work with hashtags and metadata, optimize video SEO, upload and schedule content, and review available channel performance insights." },
-            },
-            {
-              "@type": "Question",
-              name: "Who is the founder of Tube Pilot?",
-              acceptedAnswer: { "@type": "Answer", text: "Tube Pilot was founded by Anik Kumar and is operated by Bharat Cloud Technologies." },
-            },
-            {
-              "@type": "Question",
-              name: "How can creators grow on YouTube using AI?",
-              acceptedAnswer: { "@type": "Answer", text: "AI can help brainstorm topics, draft and refine titles and descriptions, organize metadata, prepare a publishing plan, and review performance data. Creators should validate suggestions against their audience, channel analytics and the actual video." },
-            },
-            {
-              "@type": "Question",
-              name: "What are the best AI tools for YouTube creators?",
-              acceptedAnswer: { "@type": "Answer", text: "Useful tools include topic planners, title and description assistants, hashtag and metadata helpers, YouTube SEO checklists, thumbnail planning tools, scheduling workflows and analytics." },
-            },
-          ],
         }),
       },
     ],
