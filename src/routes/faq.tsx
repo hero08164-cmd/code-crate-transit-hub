@@ -17,6 +17,28 @@ export const Route = createFileRoute("/faq")({
       { name: "twitter:title", content: "Tube Pilot FAQ – AI YouTube Creator Tools" },
       { name: "twitter:description", content: "Answers about Tube Pilot's AI tools, YouTube publishing workflow, scheduling, analytics and support." },
     ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          url: "https://www.tubepilot.shop/faq",
+          mainEntity: [
+            { "@type": "Question", name: "What is Tube Pilot?", acceptedAnswer: { "@type": "Answer", text: "Tube Pilot is an AI-powered YouTube Creator OS that brings content creation, optimization, publishing, scheduling and analytics into one workflow." } },
+            { "@type": "Question", name: "Who is the founder of Tube Pilot?", acceptedAnswer: { "@type": "Answer", text: "Anik Kumar is the founder of Tube Pilot." } },
+            { "@type": "Question", name: "Who can use Tube Pilot?", acceptedAnswer: { "@type": "Answer", text: "Tube Pilot is designed for YouTube creators who want to manage their content planning, optimization, publishing and performance workflow." } },
+            { "@type": "Question", name: "Does Tube Pilot generate YouTube video titles?", acceptedAnswer: { "@type": "Answer", text: "Yes. Tube Pilot includes an AI Title Generator that helps creators generate title ideas for their YouTube videos." } },
+            { "@type": "Question", name: "Can Tube Pilot generate video descriptions?", acceptedAnswer: { "@type": "Answer", text: "Tube Pilot includes AI Description Generation to help creators prepare descriptions for their YouTube content." } },
+            { "@type": "Question", name: "Does Tube Pilot help with YouTube SEO?", acceptedAnswer: { "@type": "Answer", text: "Tube Pilot provides SEO optimization tools, including support for video metadata and tags, to help creators work on YouTube content discoverability." } },
+            { "@type": "Question", name: "Can creators schedule videos with Tube Pilot?", acceptedAnswer: { "@type": "Answer", text: "Tube Pilot includes video upload and smart scheduling features to help creators manage their YouTube publishing workflow." } },
+            { "@type": "Question", name: "Does Tube Pilot provide channel analytics?", acceptedAnswer: { "@type": "Answer", text: "Tube Pilot includes video analytics and channel insights to help creators understand their content performance." } },
+            { "@type": "Question", name: "What is Tube Pilot MCP?", acceptedAnswer: { "@type": "Answer", text: "MCP stands for Model Context Protocol. Tube Pilot has an MCP-related integration initiative. Its available capabilities depend on the tools that have actually been implemented and tested." } },
+            { "@type": "Question", name: "How can I contact Tube Pilot?", acceptedAnswer: { "@type": "Answer", text: "For questions or product support, contact support@tubepilot.shop." } }
+          ]
+        })
+      }
+    ],
     links: [{"rel":"canonical","href":"https://www.tubepilot.shop/faq"}],
   }),
   component: FaqPage,
