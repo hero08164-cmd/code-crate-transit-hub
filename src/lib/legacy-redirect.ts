@@ -11,14 +11,22 @@ export function redirectCanonicalRequest(request: Request): Response | null {
   const isLegacyHost = LEGACY_HOSTS.has(hostname);
   const isPrimaryHttp = hostname === PRIMARY_HOST && url.protocol !== "https:";
   const hasLegacyHtmlPath = /\.html$/i.test(url.pathname);
+  const isFounderTypo = url.pathname === "/founc";
+  const isFounderImageAlias = url.pathname === "/founder.png";
 
-  if (!isLegacyHost && !isPrimaryHttp && !hasLegacyHtmlPath) {
+  if (!isLegacyHost && !isPrimaryHttp && !hasLegacyHtmlPath && !isFounderTypo && !isFounderImageAlias) {
     return null;
   }
 
   if (isLegacyHost || isPrimaryHttp) {
     url.protocol = "https:";
     url.hostname = PRIMARY_HOST;
+  }
+
+  if (isFounderTypo) {
+    url.pathname = "/founder";
+  } else if (isFounderImageAlias) {
+    url.pathname = "/images/founder.png";
   }
 
   if (hasLegacyHtmlPath) {
